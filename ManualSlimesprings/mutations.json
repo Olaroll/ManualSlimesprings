@@ -1,27 +1,27 @@
 [
-	{
+  {
     "type": "mutation",
-		"copy-from": "SLIMESPAWNER",
+    "copy-from": "SLIMESPAWNER",
     "id": "SLIMESPAWNER",
     "valid": false,
-		"extend": { "cancels": [ "SLIMESPAWNER" ] },
+    "extend": { "cancels": [ "SLIMESPAWNER" ] },
     "delete": { "category": [ "SLIME" ] }
   },
-	{
+  {
     "type": "mutation",
     "id": "INT_SLIME",
-		"copy-from": "INT_SLIME",
+    "copy-from": "INT_SLIME",
     "extend": { "leads_to": [ "SLIMESPAWNER_MANUAL" ] },
-		"delete": { "leads_to": [ "SLIMESPAWNER" ] }
+    "delete": { "leads_to": [ "SLIMESPAWNER" ] }
   },
-	{
+  {
     "type": "mutation",
     "id": "PER_SLIME_OK",
-		"copy-from": "PER_SLIME_OK",
+    "copy-from": "PER_SLIME_OK",
     "extend": { "leads_to": [ "SLIMESPAWNER_MANUAL" ] },
-		"delete": { "leads_to": [ "SLIMESPAWNER" ] }
+    "delete": { "leads_to": [ "SLIMESPAWNER" ] }
   },
-	{
+  {
     "type": "mutation",
     "id": "SLIMESPAWNER_MANUAL",
     "name": { "str": "Omnicellular" },
@@ -35,8 +35,8 @@
     "prereqs": [ "INT_SLIME" ],
     "prereqs2": [ "PER_SLIME_OK" ],
     "threshreq": [ "THRESH_SLIME" ],
-		"cancels": [ "SLIMESPAWNER" ],
+    "cancels": [ "SLIMESPAWNER" ],
     "category": [ "SLIME" ],
-		"spells_learned": [ [ "mitosis", 1 ] ]
+    "spells_learned": [ [ "mitosis", 1 ] ]
   }
 ]
