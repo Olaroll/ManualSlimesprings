@@ -8,7 +8,7 @@
     "min_damage": 1,
     "max_damage": 1,
     "max_level": 1,
-    "difficulty": 0,
+    "difficulty": -999,
     "spell_class": "NONE",
     "effect": "summon",
     "effect_str": "mon_player_blob",
