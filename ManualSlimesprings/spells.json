@@ -31,6 +31,8 @@
     "valid_targets": [ "self" ],
     "effect": "attack",
     "effect_str": "mitosis",
+    "min_duration": 1,
+    "max_duration": 1,
     "shape": "blast",
     "flags": [ "NO_PROJECTILE" ]
   },
