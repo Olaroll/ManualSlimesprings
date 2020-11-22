@@ -1,0 +1,10 @@
+{
+  "type": "MOD_INFO",
+  "ident": "manual_slimesprings",
+  "name": "Manual Slimesprings",
+  "authors": [ "Olaroll" ],
+  "description": "Disables automatic spawning of slimesprings",
+  "category": "misc_additions",
+  "dependencies": [ "dda" ],
+  "version": "1.0"
+}
